@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta "description" content="Aprenda a definir o idioma de uma página HTML e a usar as principais meta tags, como charset, viewport, description e author.">
+  <meta "author" content ="Tinno">
+  <title>Meta Tags e Idioma da Página</title>
+  <link rel="stylesheet" href="aulas.css">
+</head>
+
+<body>
+  <h1>Idioma da página e meta tags</h1>
+  <h2>1. Definindo o idioma da página</h2>
+  <p>Para informar ao navegador qual é o idioma principal do conteúdo da página, usamos o <u>atributo</u> <b>lang</b> dentro da tag <b>&lt;html&gt;</b>.</p>
+  <p><b>Exemplo:</b>
+   <pre class="codigo"><code>&lt;html lang="pt-MZ"&gt;</code></pre></p>
+  <p><strong>Importante:</strong> lang não é uma tag. Mas sim, um atributo da tag &lt;html&gt;.</p>
+  
+  <br>
+  <hr>
+  <br>
+  
+  <h2>2. Meta Tags</h2>
+  <p>As meta tags fornecem informações sobre a página para o navegador, mecanismos de pesquisa e outros sistemas.</p>
+  <p>Elas são colocadas dentro da tag <b>&lt;head&gt;</b>.</p>
+  
+  <h3>2.1 &lt;meta charset="UTF-8"&gt;</h3>
+
+  <p>Define a codificação dos caracteres utilizados na página, isto é, diz ao navegador como interpretar os caracteres do texto da página.</p>
+  <p>Isso permite que caracteres como: <b>á, é, í, ó, ú, ã, õ, ç </b>sejam apresentados corretamente.</p>
+
+  <h3>2.2 &lt;meta name="viewport"&gt;</h3>
+  <p>É muito importante para páginas que serão visualizadas em <b>celulares, tablets</b> e <b>computadores</b>. Ajuda a página a funcionar em <u>diferente tamanhos da tela</u>.</p>
+  <p><strong>Linha completa:</strong> <pre class="codigo"><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre></p>
+  <p><b>Significados:</b></p>
+  <ul>
+    <li><b>width=device-width:</b> faz a
+   largura da página acompanhar a
+   largura do dispositivo.</li>
+   <br>
+    <li><b>initial-scale=1.0:</b> define a escala inicial da página como 1, ou seja, sem zoom inicial.</li> 
+    </ul>
+  <p><strong>Atenção:</strong> Essa meta tag ajuda na adaptação da página, mas sozinha não torna o site totalmente responsivo. O <mark>CSS</mark> também é necessário. </p>
+
+  <h3>2.3 &lt;meta name="description"&gt;</h3>
+  <p>É usada para fornecer uma descrição da página.</p>
+  <p><b>Exemplo:</b><pre class="codigo"><code>&lt;meta name="description" content="Site para aprender HTML, CSS e JavaScript."&gt;</code></pre></p>
+  <p>A informação da descrição pode ser utilizada pelos mecanismos de pesquisa, como o <u>Google</u>, em seus resultados.</p>
+
+  <h3>2.4 &lt;meta name="author"&gt;</h3>
+  <p>Indica quem é o autor ou responsável pelo conteúdo da página.</p>
+
+  <p><b>Exemplo:</b> <pre class="codigo"><code>&lt;meta name="author" content="Elton Mandlhaze"&gt;</code></pre></p>
+  
+  <br>
+  <hr>
+  <!-- ESTRUTURA HTML NA IMAGEM -->
+  <h2>Estrutura básica de tudo que aprendemos nesta aula</h2>
+  
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-MZ"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta name="description" content="Site para aprender HTML, CSS e JavaScript."&gt;
+    &lt;meta name="author" content="Elton Mandlhaze"&gt;
+    &lt;title&gt;Aprendendo HTML&lt;/title&gt;
+  &lt;/head&gt;
+&lt;/html&gt;
+</pre></code>
+  
+  <br>
+  <hr>
+  <nav class="navegacao-aula">
+  <a href="Index.html">Página inicial</a>
+  <a href="Aula01.html"><<< Aula anterior</a>
+  <a href="https://youtu.be/C3JFW7oIq1I?si=-gDB0_Gdl78oNMWk">Aula em vídeo no YouTube</a> 
+  <a href="Aula03.html">Próxima aula >>></a>
+  </nav>
+  <hr>
+  
+</body>
+
+</html>

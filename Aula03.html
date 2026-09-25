@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aprenda a formatar textos em HTML usando negrito, itálico,sublinhado, destaque, texto excluído, sobrescrito e subscrito.">
+</head>
+  <title>Formatação</title>
+  <link rel="stylesheet" href="aulas.css">
+</head>
+
+<body>
+  <h1>Formatação de Texto</h1>
+  <p>É a aplicação de diferentes formas de apresentação a um texto, como <b>negrito, itálico, sublinhado, destaque</b> e outros efeitos, para melhorar sua aparência ou dar ênfase a determinadas informações.</p>
+  <h2>1. &lt;b&gt; (Bold)</h2>
+  <p>Deixa o texto visualmente em <b>negrito.</b></p>
+  <p><b>Exemplo:</b> <pre class="codigo"><code>&lt;p&gt;Este é um texto&lt;b&gt;em negrito&lt;/b&gt;&lt;/p&gt;</code></pre>
+  <p><b>Resultado:</b><br>
+  <mark>Este é um texto <b>em negrito.</b></mark></p>
+
+  <p>O <b>&lt;b&gt;</b> serve principalmente para dar destaque visual, sem indicar que o texto é semanticamente mais importante.</p>
+
+  <br>
+  <hr>
+  <br>
+  <h2>2. &lt;strong&gt;</h2>
+
+  <p>Indica que determinado texto tem forte importância.</p>
+  <p><b>Exemplo:</b> <pre class="codigo"><code>&lt;p&gt;&lt;strong&gt;Atenção:&lt;/strong&gt;Não compartilhe a sua senha.&lt;/p&gt;</code></pre></p>
+  <p><b>Resultado:</b><br>
+    <mark><strong>Atenção:</strong> Não compartilhe sua senha.</mark></p>
+  <p>Normalmente o navegador
+    apresenta <b>&lt;strong&gt;</b> em negrito, mas a diferença principal é
+    o significado: <b>&lt;strong&gt;</b>
+    indica <b>importância</b>, enquanto <b>&lt;b&gt;</b> é apenas uma <b>marcação
+    visual.</b></p>
+  
+  <br>
+  <hr>
+  <br>
+  
+  <h2>3. &lt;i&gt; (Italic)</h2>
+  <p>Apresenta o texto em <b>itálico.</b><br><br>
+   <b>Exemplo:</b> <pre class="codigo"><code></code>&lt;p&gt;Esta palavra está em&lt;i&gt;itálico&lt;/i&gt;.&lt;/p&gt;</code></pre></p>
+  <p><b>Resultado:</b><br>
+    <mark>Esta palavra está em<b><i> itálico.</i></b></mark></p>
+   
+  <br>
+  <hr>
+  <br>
+   
+  <h2>4. &lt;u&gt; (Underline)</h2>
+  <p>Um tag que apresenta o texto <b>sublinhado.</b><br><br><b>Exemplo:</b> <pre class="codigo"><code>&lt;p&gt;Está palavra está&lt;u&gt;sublinhada&lt;/u&gt;.&lt;/p&gt;</code></pre>
+  <p><b>Resultado:</b><br>
+     <mark>Está palavra está <b><u>sublinhada</u></b>.</mark></p>
+     
+  <br>
+  <hr>
+  <br>
+    
+  <h2>5. &lt;small&gt;</h2>
+  <p>Apresenta o texto com um <b>tamanho menor</b> em relação ao texto normal.</p>
+  <p><b>Exemplo:</b> <pre class="codigo"><code>&lt;p&gt;Este é um texto normal.&lt;/p&gt;
+  &lt;br&gt;
+&lt;p&gt;&lt;small&gt;Este é um texto menor.&lt;/small&gt;&lt;/p&gt;</code></pre></p>
+  <p><b>Resultado:</b></b><br> 
+    <mark>Este é um texto normal.<br>
+    <small>Este é um texto menor.</small></mark></p>
+  <p>É frequentemente usada para <b>observações, informações secundárias ou pequenos texto.</b></p>
+  
+  <br>
+  <hr>
+  <br>
+  
+  <h2>6. &lt;del&gt; (Deleted)</h2>
+  <p>Representa um texto que <b>foi removido ou deixou de ser válido.</b> O navegador normalmente coloca um <b>risco sobre o texto.</b></p>
+  <p><b>Exemplo:</b> <pre class="codigo"><code>&lt;p&gt;Preço antigo: &lt;del&gt;1000 MT&lt;/del&gt;&lt;/p&gt;</code></pre></p>
+  <p><b>Resultado:</b><br>
+  <mark>Preço antigo: <b><del>1000 MT</del></b></mark></p>
+  
+  <br>
+  <hr>
+  <br>
+  
+  <h2>7. &lt;mark&gt; (Marked)</h2>
+   <p>Serve para <b>destacar</b> um trecho do texto, normalmente com um fundo <b>amarelo</b> no navegador.</p>
+  <p><b>Exemplo:</b> <pre class="codigo"><code>&lt;p&gt;Aprender HTML é &lt;mark&gt;muito importante&lt;/mark&gt;.&lt;/p&gt;</code></pre></p>
+  <p><b>Resultado:</b><br>
+  <mark>Aprender HTML é muito importante.</mark></p>
+
+  <p>A <b>cor amarela</b> é o comportamento padrão mais comum do navegador, mas posteriormente podemos aprender a alterar essa aparência usando <b>CSS</b>.</p>
+  
+  <br>
+  <hr>
+  <br>
+  <h2>8. &lt;sup&gt; (Superscript)</h2>
+  <p>Coloca o conteúdo <b>acima</b> da linha normal do texto. E é usada também para representar <b>potências</b>.<br><br>
+  <b>Exemplo:</b> <pre class="codigo"><code>&lt;p&gt;2&lt;sup&gt;2&lt;/sup&gt;=4&lt;/p&gt;</code></pre></p>
+  <p><b>Resultado:</b><br>
+  <mark>2² = 4</mark></p>
+  
+  <br>
+  <hr>
+  <br>
+  <h2>9. &lt;sub&gt; (Subscript)</h2>
+  <p>Coloca o conteúdo <b>abaixo</b> da linha normal do texto. E também é muito usada em <b>fórmulas químicas</b>.</p>
+  <p><b>Exemplo 01:</b> <pre class="codigo"><code>&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;</code></pre><br>
+  <b>Resultado:</b><br>
+  <mark>H₂O</mark></p>
+  <p><b>Exemplo 02:</b> <pre class="codigo"><code>&lt;p&gt;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/p&gt;</code></pre></p>
+  <p><b>Resultado:</b><br>
+  <mark>CO₂</mark></p>
+
+<br>
+<hr>
+<br>
+
+<!-- ESTRUTURA HTML NA IMAGEM -->
+<h2>Estrutura básica de tudo que aprendemos nesta aula</h2>
+ <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-MZ"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;WebLearn - Aula 03&lt;/title&gt;
+    &lt;meta name="description" content="Aprenda a formatar textos em HTML usando negrito, itálico, sublinhado, destaque, texto excluído, sobrescrito e subscrito."&gt;
+    &lt;meta name="author" content="Elton Mandlhaze"&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;h1&gt;Formatação de Texto&lt;/h1&gt;
+    &lt;p&gt;
+        Este é um exemplo das principais tags de formatação
+        de texto em HTML.
+    &lt;/p&gt;
+    &lt;hr&gt;
+    &lt;h2&gt;1. Negrito e Importância&lt;/h2&gt;
+    &lt;p&gt;
+        O texto em &lt;b&gt;negrito&lt;/b&gt; usa a tag &lt;b&gt;.
+        Já o texto com &lt;strong&gt;importância&lt;/strong&gt;usa a tag
+        &lt;strong&gt;.
+    &lt;/p&gt;
+    &lt;h2&gt;2. Itálico e Sublinhado&lt;/h2&gt;
+    &lt;p&gt;
+        &lt;i&gt;Este texto está em itálico.&lt;/i&gt;
+        E este está &lt;u&gt;sublinhado&lt;/u&gt;.
+    &lt;/p&gt;
+    &lt;h2&gt;3. Texto menor&lt;/h2&gt;
+    &lt;p&gt;
+        Este é um texto normal.
+        &lt;small&gt;Este é um texto menor.&lt;/small&gt;
+    &lt;/p&gt;
+    &lt;h2&gt;4. Texto excluído&lt;/h2&gt;
+    &lt;p&gt;
+        Preço antigo: &lt;del&gt;1.000 MT&lt;/del&gt;
+        Agora: 800 MT.
+    &lt;/p&gt;
+    &lt;h2&gt;5. Texto destacado&lt;/h2&gt;
+    &lt;p&gt;
+        Aprender HTML é
+        &lt;mark&gt;muito importante&lt;/mark&gt;.
+    &lt;/p&gt;
+    &lt;h2&gt;6. Sobrescrito e Subscrito&lt;/h2&gt;
+    &lt;p&gt;
+        2&lt;sup&gt;3&lt;/sup&gt; = 8
+        e
+        H&lt;sub&gt;2&lt;/sub&gt;O.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt; 
+</pre></code>
+
+<br>
+<hr>
+<nav class="navegacao-aula">
+<a href="Index.html">Página inicial</a>
+<a href="Aula02.html"><<< Aula anterior</a>
+<a href="https://youtu.be/MBTuCWMu9OY?si=8E1GP01vxz8u1wHY">Aula em vídeo no YouTube</a>
+<a href="Aula04.html">Próxima aula>>></a>
+</nav>
+<hr>
+
+</body>
+</html>

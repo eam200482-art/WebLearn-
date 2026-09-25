@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Aprenda os fundamentos do HTML, conheça sua estrutura básica e entenda as principais tags usadas para criar páginas web.">
+    <title>Introdução ao HTML</title>
+    <link rel="stylesheet" href="aulas.css">
+  </head>
+
+  <body>
+     
+    <header class="cabecalho-aula">
+       
+        <h1>Introdução ao HTML</h1>
+       <p><b>HTML</b> é a linguagem de marcação padrão usada para <b>estruturar</b> e <b>organizar</b> o conteúdo de <u>páginas na web</u>.</p>
+    </header>
+    
+       <h2>1. As três tecnologias
+       básicas da Web</h2>
+       <p>Para criar uma página web
+       básica, normalmente
+       utilizamos três tecnologias
+       principais:</p>
+     
+      <h3>1.1. HTML (HyperText Mark
+       Language)</h3>
+    
+      <p>É uma <b>linguagem de marcação</b>
+       usada para estruturar o
+       conteúdo de uma página web.
+      
+      <br><br>
+    
+       Com HTML podemos definir:</p>
+     
+      <ul>
+        <li>Títulos;</li>
+        <li>Parágrafos;</li>
+        <li>Imagens;</li>
+        <li>Links;</li> 
+        <li>Listas;</li>
+        <li>Formulários;</li>
+        <li>Tabelas;</li>
+        <li>etc.</li>
+      </ul>
+
+      <p><strong>Importante:</strong> HTML não é uma
+       linguagem de programação.</p>
+    
+      <h3>1.1.2. CSS (Cascading Style
+       Sheets)</h3>
+    
+      <p>É usado para <b>estilizar</b>
+       e <b>organizar visualmente</b> a
+       página, ou seja, cuida
+       principalmente da aparência
+       da página.
+       
+      <br><br>
+
+       Com CSS podemos definir:</p>
+       
+      <ul>
+       <li>Cores;</li>
+       <li>Tamanhos;</li>
+       <li>Fontes;</li>
+       <li>Espaçamentos;</li>
+       <li>Posições; </li>
+       <li>Bordas;</li> 
+       <li>Layouts;</li>
+       <li>Animações;</li> 
+       <li>etc.</li>
+      </ul>
+    
+      <h3>1.3. JS (JavaScript)</h3>
+    
+      <p>É uma linguagem de
+       programação usada para
+       adicionar <b>comportamento</b> e
+       <b>interatividade</b> às páginas
+       web.
+     
+      <br><br>
+
+       JavaScript pode fazer:</p> 
+     
+      <ul>
+       <li>Um botão responder ao
+         clique;</li>
+       <li>Validar um formulár;</li>
+       <li>Mostrar ou esconder
+         conteúdo;</li>
+       <li>Realizar cálculos;</li>
+       <li>etc.</li>
+      </ul>
+   
+      <br>
+    
+      <hr>
+     
+      <br>
+     
+      <h3>2. Uma forma simples de
+       memorizar</h3>
+      <p>Imagine um corpo humano:</p>
+     
+      <br><br>
+    
+      <img src="/WebLearn /Screenshot_20260903-113256~2.jpg" width="958">
+    
+      <ol>
+       <li><b>HTML:</b> estrutura (esqueleto)</li>
+       <li><b>CSS:</b> aparência (roupa)</li>
+       <li><b>JavaScript:</b> comportamento (acções)</li>
+      </ol>
+     
+      <br>
+     
+      <hr>
+    
+      <br>
+    
+      <h2>3. Criar uma página HTML</h2>
+      <h3>PRIMEIRO: <span>Criar uma pasta</span></h3>
+      <p>Crie uma pasta para guardar
+       os arquivos do projeto.<br><br>
+      <b>Exemplo:</b> <br>
+    Pasta chamado <mark>MeuSite</mark></p>
+
+      <h3>SEGUNDO: <span>Criar o arquivo HTML</span></h3>
+      <p>Dentro da pasta, crie um
+       arquivo. Pode dar, por
+       exemplo, o nome de <mark>index.html.</mark> 
+       
+      <br>
+       
+      <u>Esse arquivo será
+       a página principal do site.</u>
+    
+      <br><br>
+    
+      <strong>Importante:</strong> No caso geral,
+       o nome do arquivo tem de
+       ser sempre seguida pelo
+       nome da linguagem <b>(html, css
+       ou js)</b>, para especificar a 
+       linguagem que está em uso no
+       arquivo.</p>
+      <h3>TERCEIRO: <span>Escrever o
+       código HTML</span></h3>
+      <p>Abra o arquivo <b>index.html</b>
+       no editor de código e
+       faça a <u>estrutura HTML</u></u> do teu site.</p>
+    
+      <br>
+    
+      <hr>
+    
+      <br>
+    
+      <h2>4. Tags fundamentais da
+       estrutura do HTML</h2>
+    
+      <p><b>Tag:</b> é uma <b>marcação</b> usada
+       para identificar ou
+       delimitar determinados
+       elementos no HTML. Isto é,
+       é a declaração do tipo de
+       documento.
+    
+      <br><br>
+
+      <b><pre><code>&lt;!DOCTYPE html&gt;</code></pre></b>
+      <b>Document type declaration</b> (declaração do tipo de documento da linguagem htm), essa linha informa ao
+       navegador que o documento
+       utiliza o padrão HTML5.
+    
+      <br><br>
+    
+      <b><pre><code></code>&lt;html&gt;</code></pre></b>
+       A tag que representa o documento HTML como um todo. Geralmente, todo o conteúdo da página fica dentro de &lt;html&gt;.
+
+      <br><br>
+
+       O HTML inclui 3 (três) tags
+       fundamentais na sua
+       estrutura, aqui estão:</p>
+    
+      <h3>4.1. Cabeçalho (head)</h3>
+    
+      <p>Contém <b>informações</b> e
+       <b>configurações</b> da página que, em geral, não aparecem
+       diretamente como conteúdo
+       da página para o usuário.
+
+      <br><br>
+
+       Dentro do &lt;head&gt; podemos
+       colocar informações como:</p>
+
+      <ul>
+        <li>Título da página;</li>
+        <li>Codificação de caracteres;</li>
+        <li>Configurações para dispositivos móveis;</li>
+        <li>Links para arquivos CSS;</li>
+        <li>etc.</li>
+      </ul>
+    
+      <h3>4.2. Corpo (body)</h3>
+
+      <p>Contém o <b>conteúdo principal
+       da página</b>, aquilo que o
+       usuário normalmente vê no
+       navegador.</p>
+    
+      <h3>4.3. Pé (footer)</h3>
+    
+      <p>Representa o <b>rodapé</b> de uma
+       página ou de uma
+       determinada seção.
+    
+      <br><br>
+    
+      <b>Exemplo:</b>
+      <pre class="codigo"><code>
+      &lt;p&gt;© 2026 Meu Site.&lt;/p&gt;
+      </code></pre>
+
+      <br><br>
+
+      <strong>Importante:</strong> o <b>&lt;footer&gt;</b> não faz parte da estrutura obrigatória <b>head + body</b>. Ele é um elemento de conteúdo que normalmente fica dentro do <b>body</b>.</p>
+    
+      <h3>4.4. A relação entre &lt;ol&gt;, &lt;ul&gt; e &lt;li&gt;</h3>
+    
+      <p>Entenda através da seguinte
+    analogia, pense assim:</p>
+    
+      <ul>
+    
+        <li><b>&lt;ol&gt; ou &lt;ul&gt;</b> = o
+       recipiente da lista.</li>
+    
+      <br>
+    
+        <li><b>&lt;li&gt;</b> = cada elemento
+    dentro desse recipiente.</li>
+    
+      </ul>
+    
+      <br>
+      <hr>
+    
+      <!-- ESTRUTURA HTML NA IMAGEM -->
+      <h2>Estrutura básica de tudo que aprendemos nesta aula</h2>
+    
+      <pre><code>&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+    &lt;head&gt;
+        &lt;title&gt;Minha Primeira Aula de HTML&lt
+        ;/title&gt;
+    &lt;/head&gt;
+    
+    &lt;body&gt;
+        &lt;h1&gt;Introdução ao HTML&lt;/h1&gt;
+        &lt;h2&gt;O que é HTML?&lt;/h2&gt;
+        &lt;p&gt;HTML é uma linguagem de marcação usada para estruturar páginas web.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+ 
+      <br>
+      <hr>
+      <nav class="navegacao-aula">
+       <a href="Index.html">Página inicial</a>
+       <a href="https://youtu.be/0EfWmBJA3hU?si=lnP4Y-QdEDq8Ua_d" target="_blank">Aula em vídeo no YouTube</a>
+        <a href="Aula02.html">Próxima aula >>></a>
+     </nav>
+     <hr>
+   
+  </body>
+  
+</html>

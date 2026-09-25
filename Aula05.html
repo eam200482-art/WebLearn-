@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content ="Aprenda a criar comentários, links e inserir imagens em suas páginas HTML de forma simples.">
+  <meta name="author" content="Tinno">
+  <title>Comentários, Links e Imagens</title>
+  <link rel="stylesheet" href="aulas.css">
+</head>
+
+<body>
+  
+  <!-- TÍTULO DA AULA -->
+  
+  <h1>Comentários, Links e Imagens</h1>
+  
+  <!-- CONTEÚDO DE COMENTÁRIOS -->
+  <h2>1. Comentários em HTML</h2>
+
+   <p>Os <b>comentários</b> são textos escritos no código que não aparecem na página para o usuário.</p>
+   <p>Eles servem principalmente para <b>explicar o código, organizar partes da página ou deixar uma observação para uma futura alteração.</b></p>
+   
+   <!-- EXEMPLO -->
+   <p><b>Exemplo:</b><br>
+   <pre class="codigo"><code>&lt;h1&gt;WebLearn&lt;/h1&gt;
+   &lt;!-- Este parágrafo apresenta o site --&gt;
+   &lt;p&gt;Aprenda HTML de forma simples.&lt;/p&gt;</code></pre></p>
+   <p>No navegador, aparecerá apenas:<br>
+     <mark>WebLearn<br>
+     Aprenda HTML de forma simples</mark>.</p>
+     
+    <!-- USOS ESPECÍFICOS DE COMENTÁRIOS -->
+   <h3>Pequenos detalhes</h3>
+   <p>Podemos usar comentários para:
+
+   <ul>
+     <li>Explicar o código;</li>
+     <li>Separar partes do código;</li>
+     <li>Deixar lembretes;</li>
+     <li>Facilitar a manutenção do projeto.</li>
+    </ul>
+   <p><strong>Nota: Comentários são para quem está trabalhando no código. Eles não são mostrados normalmente na página.</strong></p>
+    
+    <br>
+    <hr>
+    <br>
+    
+    <!-- CONTEÚDO DE LINKS --> 
+    <h2>2. Link </h2>
+    <p>É um elemento que permite ao usuário <b>clicar e ser levado para outro lugar.</b><br><br>
+      Podemos criar <b>links</b> para:</p>
+    
+    <!-- AS UTILIDADES DE LINKS -->
+    <ul>
+     <li>Outro site;</li>
+     <li>Outra página do nosso projeto;</li>
+     <li>Uma página de um curso;</li>
+     <li>Um vídeo;</li>
+     <li>etc</li>
+    </ul>
+    
+    <!-- COMO CRIAR LINK --> 
+    <p>Para criar um <b>link</b>, a tag principal usada é: <strong>&lt;a&gt;&lt;/a&gt;.</strong><br><br>
+      Mas precisamos informar para
+      onde o <b>link</b> deve levar. Para
+      isso, usamos o <strong>atributo href.</strong></p>
+      
+    <!-- EXEMPLO E A EXPLICAÇÃO -->
+    <p><b>Exemplo:</b><br>
+    <pre class="codigo"><code>&lt;a href="https://www.youtube.com/"&gt;Visitar YouTube&lt;/a&gt;</code></pre></p>
+    
+    <h3>Entenda o código</h3>
+    <ul>
+      <li><b>&lt;a&gt;&lt;/a&gt;:</b> cria o link.</li>
+      <li><b>href:</b> indica para onde o link deve levar.</li>
+      <li><b>https://www.youtube.com/:</b> é o endereço para onde o usuário será levado.</li>
+      <li><b>Visitar YouTube:</b> é o texto que aparece na página.</li>
+    </ul>
+    <p><strong>Nota: Cria-se também link para outra página do nosso próprio site.</strong></p>
+    
+    <br>
+    <hr>
+    <br>
+    
+    <!-- IMANGENS -->
+    <h2>3. Imagem</h2>
+    <p>É um <b>recurso visual</b> que podemos colocar dentro da nossa página.<br><br>
+      Podemos usar <b>imagens</b> para:</p>
+    <ul>
+      <li>Ilustrar um conteúdo;</li>
+      <li>Mostrar exemplos;</li>
+      <li>Apresentar um produto;</li>
+      <li>Colocar um logotipo;</li>
+      <li>Tornar a página mais visual.</li>
+    </ul>
+      
+    <!-- COMO ADICIONAR UMA IMAGEM NA PÁGINA -->
+    <p>Para a <b>colacação de uma imagem</b> numa <u>página</u> usa-se a tag: <strong>&lt;img&gt;</strong><br><br>
+      Mas para essa tag funcionar
+      corretamente precisamos
+      informar onde encontrar a
+      <b>imagem</b>, para isso usamos o
+      <strong>atributo src.</strong></p>
+      
+      <!-- EXEMPLO-->
+    <p><b>Exemplo:</b><br>
+    <pre class="codigo"><code>&lt;img src="imagem.jpg" alt="Uma imagem de exemplo"&gt;</code></pre></p>
+    
+    <h3>Entenda o código</h3>
+    <ul>
+      <li><b>&lt;img&gt;:</b> indica que queremos colocar uma imagem.</li>
+      <li><b>src:</b> informa onde está a imagem.</li>
+      <li><b>imagem.jpg:</b> é o nome do arquivo da imagem.</li>
+      <li><b>alt:</b> fornece uma descrição da imagem.</li>
+    </ul>
+    
+    <br>
+    <hr>
+    <br>
+    
+    <!-- ESTRUTURA BÁSICA HTML NA IMAGEM -->
+    <h2>Estrutura básica de tudo que aprendemos nesta aula </h2>
+    
+   <pre><code> 
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-MZ"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Aula 05&lt;/title&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;!-- Título da aula --&gt;
+    &lt;h1&gt;Comentários, Links e Imagens&lt;h1&gt;
+    &lt;!-- Texto de apresentação --&gt;
+    &lt;p&gt;Aprenda HTML de forma simples com o WebLearn.&lt;/p&gt;
+    &lt;!-- Link para o YouTube --&gt;
+    &lt;a href="https://www.youtube.com/"&gt;Visitar YouTube&lt;/a&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;!-- Imagem da aula --&gt;
+    &lt;img src="computador.jpg" alt="Computador mostrando código HTML"&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+  </code></pre>
+  
+    <br>
+    <hr>
+    <nav class="navegacao-aula">
+    <a href="Index.html">Página inicial</a>
+    <a href="Aula04.html"><<< Aula anterior</a>
+    <a href="https://youtu.be/WX8nJfWCTlc?si=YbmXUMGg6HxnQWAy">Aula em vídeo no YouTube</a>
+    </nav>
+    <hr>
+ </body>
+</html>
